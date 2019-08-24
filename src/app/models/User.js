@@ -2,7 +2,6 @@ import Sequelize, { Model } from 'sequelize';
 
 class User extends Model {
   static init(sequelize) {
-    q;
     super.init(
       {
         name: Sequelize.STRING,
